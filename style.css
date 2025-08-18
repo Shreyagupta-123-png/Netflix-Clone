@@ -1,0 +1,310 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  background-image: url("image.png");
+  background-position: center center;
+  background-size: max(1000px, 100vw);
+  background-repeat: no-repeat;
+  height: 90vh;
+  position: relative;
+}
+.main .box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.69;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  max-width: 100 vw;
+  justify-content: space-around;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 62px;
+}
+nav img {
+  color: red;
+  width: 114px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  padding: 120px;
+  text-align: center;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  height: calc(100%-62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 0px;
+}
+.hero > :first-child {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+.hero > :nth-child(4) {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+.hero > :nth-child(5) {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+.separation {
+  height: 4px;
+  background-color: rgb(66, 63, 63);
+}
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  background-color: rgba(23, 23, 23, 0.2);
+  color: white;
+}
+.btn-red {
+  background-color: red;
+  padding: 9px 35px;
+  font-size: 24px;
+  border-radius: 4px;
+  color: white;
+}
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+.main input {
+  padding: 10px 100px;
+  background-color: rgba(23, 23, 23, 0.2);
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+}
+.container1 {
+  color: white;
+  height: 100px;
+  border: 2px solid black;
+  background-color: black;
+  margin-top: 70px;
+  padding-left: 25px;
+}
+.innerconatiner {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.button1 {
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.button2 {
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.container {
+  height: 400px;
+  background-color: rgb(2, 18, 33);
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 25px;
+}
+.box {
+  height: 320px;
+  width: 230px;
+  background-color: blue;
+  /* border: 2px solid black; */
+}
+.box1 {
+  background-image: url("ctrl.jpg");
+  background-size: cover;
+}
+.box2 {
+  background-image: url("greatest.jpg");
+  background-size: cover;
+}
+.box3 {
+  background-image: url("sanivaaram.jpg");
+  background-size: cover;
+}
+.box4 {
+  background-image: url("sector\ 36.jpg");
+  background-size: cover;
+}
+.box5 {
+  background-image: url("ulajh.jpg");
+  background-size: cover;
+}
+.box6 {
+  background-image: url("platform.jpg");
+  background-size: cover;
+}
+.box:hover {
+  border: 5px solid red;
+}
+.button:hover {
+  border: 3px solid white;
+}
+.h1 {
+  font-size: 24px;
+}
+.next {
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
+.container2 {
+  height: 400px;
+
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 25px;
+}
+.con {
+  height: 300px;
+  width: 270px;
+  border-radius: 9px;
+  background-image: url("background.jpg");
+  color: white;
+}
+.con > :first-child {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Martel Sans", sans-serif;
+  gap: 0;
+}
+.con > :nth-child(2) {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Martel Sans", sans-serif;
+  color: gray;
+  gap: 0;
+}
+.third {
+  font-size: 16px;
+  font-family: "Martel Sans", sans-serif;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+.question {
+  height: 770px;
+  width: 100%;
+  background-color: black;
+  margin-top: 25px;
+}
+.bo {
+  height: 80px;
+  width: 1000px;
+  font-size: 20px;
+  color: white;
+  border: 2px solid rgb(46, 44, 44);
+  align-content: center;
+  background-image: url("third_background.webp");
+  align-items: center;
+  font-size: 16px;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  margin: 34px auto 10px;
+}
+.bo:hover {
+  border: 3px solid black;
+  background-color: red;
+}
+.fourth {
+  height: 300px;
+  background-color: black;
+}
+.ready {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+.email {
+  height: 100px;
+  width: 650px;
+  display: flex;
+  margin: 34px auto;
+  background-color: black;
+  color: white;
+}
+.email input {
+  width: 100%;
+  background-color: rgba(23, 23, 23, 0.2);
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  height: 60px;
+}
+.email button {
+  font-size: 1rem;
+  width: 250px;
+  background-color: red;
+  text-align: center;
+  height: 60px;
+}
+.footer-item {
+  background-color: black;
+  color: black;
+  height: 200px;
+  justify-content: space-evenly;
+  display: flex;
+}
+footer p {
+  color: white;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 100px;
+}
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
