@@ -21,7 +21,7 @@ A **Netflix clone** built using **HTML** and **CSS**, replicating Netflix’s sl
 
 ## 🚀 Live Demo
 
-[Check out the live demo here!](Your_Live_Demo_Link_Here)
+[Check out the live demo here!](https://shreyagupta-123-png.github.io/Netflix-Clone/)
 
 ---
 
